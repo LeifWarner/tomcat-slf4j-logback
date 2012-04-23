@@ -53,7 +53,7 @@
 		<jar destfile="${dist.path}/tomcat-juli.jar">
 			<fileset dir="${jcl-over-slf4j.home}/tomcat-juli-jcl-over-slf4j-${slf4j.version}" />
 			<manifest>
-        <attribute name="Class-Path" value="/var/lib/tomcat7/common/slf4j-api-${slf4j.version}.jar /var/lib/tomcat7/common/logback-core-${logback.version}.jar /var/lib/tomcat7/common/logback-classic-${logback.version}.jar /var/lib/tomcat7/common/classes/" />
+        <attribute name="Class-Path" value="/var/lib/tomcat7/common/slf4j-api-${slf4j.version}.jar /var/lib/tomcat7/common/slf4j-log4j12-${slf4j.version}.jar /var/lib/tomcat7/common/log4j-${log4j.version}.jar /var/lib/tomcat7/common/classes/" />
 			</manifest>
 		</jar>
 
